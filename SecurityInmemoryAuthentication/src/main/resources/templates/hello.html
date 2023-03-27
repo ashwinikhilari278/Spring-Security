@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+
+<head><title>hello page</title></head>
+<body>
+<div><h1>Hello, welcome!!</h1></div>
+<div>
+<form th:action="@{/logout}" method="post">
+<input type="submit" value="sign out">
+</form>
+</div>
+</body>
+</html>
